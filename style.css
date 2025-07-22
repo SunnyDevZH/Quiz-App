@@ -2,9 +2,8 @@ body {
     background-color: rgb(49, 49, 248) !important;
 }
 
-/* Karte */
 .container {
-    background-color: rgb(49, 49, 248) !important; /* important wegen Bootstrap */
+    background-color: rgb(49, 49, 248) !important; 
     min-height: 100vh;
     display: flex;
     justify-content: center;
