@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(49, 49, 248) !important;
+}
+
+/* Karte */
+.container {
+    background-color: rgb(49, 49, 248) !important; /* important wegen Bootstrap */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.quiz-answer-card:hover {
+    background-color: rgba(235, 235, 235, 0.5);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    margin: 10px;
+}
+.final-fondsize{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
